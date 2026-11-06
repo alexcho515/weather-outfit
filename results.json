@@ -1,0 +1,101 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-06 11:35:43",
+  "results": [
+    {
+      "question": "我明天要去台北，應該怎麼穿？",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "台北"
+          },
+          "result": {
+            "city": "台北",
+            "temp_c": 18,
+            "condition": "陰雨",
+            "rain_chance": 80,
+            "wind": "東北風 4 級"
+          }
+        }
+      ],
+      "answer": "台北明天氣溫 18 度且降雨機率高。建議穿發熱衣搭配針織衫與防風防潑水外套，下身穿長褲。配件方面記得攜帶雨具，並穿防水鞋襪，注意保暖防潮！"
+    },
+    {
+      "question": "我週末要去台中逛街，穿什麼比較好？",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "台中"
+          },
+          "result": {
+            "city": "台中",
+            "temp_c": 24,
+            "condition": "多雲",
+            "rain_chance": 20,
+            "wind": "微風"
+          }
+        }
+      ],
+      "answer": "台中週末氣溫 24 度、多雲微風。建議穿舒適的薄長袖或短袖上衣，搭配休閒長褲或牛仔褲；早晚略涼可帶一件輕薄外套或針織衫。適合好走的球鞋與托特包，逛街輕鬆無負擔，降雨機率低，免帶傘！"
+    },
+    {
+      "question": "下週去高雄衝浪，要怎麼穿搭？",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "高雄"
+          },
+          "result": {
+            "city": "高雄",
+            "temp_c": 30,
+            "condition": "晴朗",
+            "rain_chance": 5,
+            "wind": "微風"
+          }
+        }
+      ],
+      "answer": "高雄目前30度且晴朗。建議穿防磨衣、衝浪褲或比基尼；岸上準備輕便T恤、短褲與涼鞋。務必攜帶太陽眼鏡、防曬乳與毛巾，防曬要做好喔！"
+    },
+    {
+      "question": "我要去東京出差，需要帶什麼外套？",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "東京"
+          },
+          "result": {
+            "city": "東京",
+            "temp_c": 9,
+            "condition": "晴朗",
+            "rain_chance": 10,
+            "wind": "北風 3 級"
+          }
+        }
+      ],
+      "answer": "東京目前氣溫 9 度、晴朗。建議穿發熱衣搭配毛衣，下身選保暖長褲。外套請穿防風的羽絨外套或羊毛大衣，並準備圍巾與手套禦寒，不用帶傘。"
+    },
+    {
+      "question": "我去首爾旅行，穿搭要注意什麼？",
+      "tool_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "首爾"
+          },
+          "result": {
+            "city": "首爾",
+            "temp_c": -2,
+            "condition": "下雪",
+            "rain_chance": 70,
+            "wind": "強風"
+          }
+        }
+      ],
+      "answer": "首爾目前氣溫-2°C且下雪有強風，降雨機率70%。建議採洋蔥式穿搭：內搭發熱衣，外加厚毛衣與防風羽絨外套。下身穿刷毛長褲，搭配保暖靴子。配件務必帶毛帽、圍巾、厚手套，並記得攜帶雨具（傘）防雪防濕！"
+    }
+  ]
+}
