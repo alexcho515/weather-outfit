@@ -25,7 +25,7 @@ load_dotenv()  # 讀取 .env（已被 .gitignore 排除）
 API_KEY = os.getenv("LLM_API_KEY")
 # Gemini 提供 OpenAI 相容的介面，所以可以用 openai 套件呼叫
 BASE_URL = os.getenv("LLM_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/")
-MODEL = os.getenv("LLM_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("LLM_MODEL", "gemini-3.5-flash-lite")
 
 # ---- 假的天氣資料（自己編的，沒有串任何外部 API）----
 FAKE_WEATHER = {
