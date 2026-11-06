@@ -1,0 +1,10 @@
+# 金鑰與環境設定（絕對不能進 repo）
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 由 Actions 產生的作品頁
+site/
